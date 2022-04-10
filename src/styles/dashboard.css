@@ -1,0 +1,28 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    overflow-y: auto;
+    height: calc(100vh - 150px);
+    border-radius: 0px;
+    padding: 20px;
+}
+    
+.chart { grid-area: 1 / 1 / 2 / 2; }
+.trade { grid-area: 1 / 2 / 2 / 3; }
+.transactions { grid-area: 2 / 1 / 2 / 3; }
+
+.chart {  
+    background-color: #FFFFFF; 
+}
+
+.trade { 
+    background-color: #FFFFFF; 
+    padding-top: 90px;
+}
+
+.transactions { 
+    background-color: #FFFFFF; 
+}

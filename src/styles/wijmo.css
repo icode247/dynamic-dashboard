@@ -1,0 +1,24 @@
+
+
+.transactions .wj-flexgrid {
+    height: 330px;
+}
+
+.wj-flexgrid .wj-cell {
+    padding: 7px;
+    border: none;
+}
+
+
+/* Charts */
+
+.wj-flexchart  {
+    border: none;
+    height: 280px;
+}
+
+/* Assets */
+
+.assets .wj-flexgrid {
+    height: 100%;
+}

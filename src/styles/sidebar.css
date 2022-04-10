@@ -1,0 +1,12 @@
+.sidebar {
+    padding: 10px;
+    background-color: #FFFFFF; 
+    overflow-y: auto;
+    height: calc(100vh - 150px);
+
+}
+
+.assets { 
+    background-color: lightgray;
+    padding: 0px;
+}
